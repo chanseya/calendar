@@ -1,0 +1,13 @@
+.date {
+    &_now {
+        margin-top: 230px;
+        font-weight: 600;
+        font-size: 64px;
+        color: #fff;
+    }
+    &_moon {
+        position: absolute;
+        top: -216px;
+        right: 0;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+</head>
+<body>
+    <section class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer_mode col-md-1 dark">
+                    <div class="footer_mode-night">
+                        <span class="material-icons">nightlight</span>
+                    </div>
+                    <div class="footer_mode-day">
+                        <span class="material-icons">light_mode</span>
+                    </div>
+                </div>
+    
+                <a href="#" class="footer_link">
+                    Add an event
+                    <span class="material-icons">north_east</span>
+                </a>
+
+                <a href="#" class="footer_link">
+                    Today’s weather
+                    <span class="material-icons">north_east</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="date">
+        <div class="container">
+            <div class="date_now">
+                June 2022<br>10<br>3.14 a.m.
+            </div>
+            <img src="img/moon.png" alt="moon" class="date_moon">
+        </div>
+    </section>
+
+    <section class="calendar">
+        <div class="container">
+            <div class="caledar_slider">
+                <div>
+                    <img src="img/anton_1.jpg" alt="anton_1">
+                </div>
+                <div>
+                    <img src="img/anton_2.jpg" alt="anton_2">
+                </div>
+                <div>
+                    <img src="img/kirill_1.jpg" alt="kirill_1">
+                </div>
+                <div>
+                    <img src="img/leshik_1.jpg" alt="leshik_1">
+                </div>
+                <div>
+                    <img src="img/serezha_1.jpg" alt="serezha_1">
+                </div>
+            </div>
+            <button type="button" class="prev"><img src="img/arrow_left.png"></button>
+            <button type="button" class="next"><img src="img/arrow_right.png"></button>
+        </div>
+    </section>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

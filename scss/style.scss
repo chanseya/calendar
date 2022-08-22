@@ -1,0 +1,25 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+body {
+    background: url('../img/night_sky.jpg') center center/cover no-repeat;
+    transition: all, .5s;
+}
+
+.body_light {
+    background: url('../img/clear_sky.jpg') center center/cover no-repeat;
+    .footer_link {
+        background: none;
+        background-color: rgba(32, 49, 101, 0.133);
+    }
+}
+
+.container {
+    position: relative;
+}
+
+@import 'footer';
+@import 'date';
+@import 'calendar';
